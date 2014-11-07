@@ -4,7 +4,98 @@
 /*Style the structure of the landing page */
 
 body{
-	
-	
-	
+ 	background-color: #369;
+ }
+
+/*wrapping my main content into a div style against the background color*/	
+
+#main{	
+	background-color:#FFF;
+	width: 980px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	border-style: solid;
+	border-radius:  10px;
+	border-width: 1px;
+	padding: 20px;
+	box-shadow: 0 0 15px #000;
 	}
+	
+#pictures{
+	background-color: #CCC;
+	width: 980px;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: solid;
+	border-radius:  10px;
+	border-width: 1px;
+	padding: 20px;
+	box-shadow: 0 0 15px #000;
+	}
+
+
+/*style the headings*/	
+	
+h1{	
+	font-size: 48px;
+	color: red;
+	opacity: .7;
+	text-align: center;
+	vertical-align: middle;
+	text-transform:uppercase;
+	text-shadow: 2px 2px 7px #333;
+	}
+	
+#career{ 
+	background-color: #39C;
+	border-style: solid;
+	border-width: 1px;
+	margin-right: 700px;
+	text-align: center;
+	vertical-align: middle;
+	}
+	
+/*using a different google font for my paragraph styling*/
+
+@font-face{
+	font-family: 'Alegreya', serif;
+	src: url(http://fonts.googleapis.com/css?family=Alegreya)
+	}
+	
+p{
+	font-family: 'Alegreya', serif;
+	text-indent: 15px;
+	}
+	
+blockquote{
+	border-style: solid;
+	border-width: 1px 0px;
+	padding:10px;
+	font-style: italic;	
+	line-weight: light;
+	}
+	
+ol{
+	list-style-type: square;
+	}
+	
+/* unvisited link */
+a:link {
+    color: #0033FF;
+}
+
+/* visited link */
+a:visited {
+    color: #30F;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FF00FF;
+}
+
+/* selected link */
+a:active {
+    color: #00F;
+}
