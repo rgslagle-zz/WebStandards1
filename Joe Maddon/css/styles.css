@@ -7,7 +7,6 @@ body{
 	background: #666 url(fade.png) 0 0 repeat-y;
     background: -webkit-linear-gradient(right, #66F, #30C); 
     background: linear-gradient(to right, #0CF, #00F);
-
  }
 
 /*wrapping my main content into a div style against the background color*/	
@@ -33,7 +32,9 @@ header{
 	padding: 20px;
 	box-shadow: 0 0 15px #000;
 	}
+	
 /*background for the main content on the page*/
+
 #content{
 	background-image: url(../images/pattern_084.gif);
 	background-repeat: repeat;
@@ -48,10 +49,12 @@ header{
 	padding: 20px;
 	box-shadow: 0 0 15px #000;
 	}
+	
 /*created seperation for the articles*/	
+
 article{
 	float: left;
-	width: 33%;
+	width: 30%;
 	padding: 5%;
 	margin: 2%;
 	background-color:#FFF;
@@ -76,10 +79,14 @@ h1{
 	vertical-align: middle;
 	text-transform:uppercase;
 	text-shadow: 2px 2px 7px #333;
+	background-image:url(../images/baseball.png);
+	background-repeat: no-repeat;
 	}
 	
 #career{ 
 	width: 90%;
+	margin-left:auto;
+	margin-right:auto;
 	background-color: #39C;
 	border-style: solid;
 	border-width: 1px;
@@ -90,12 +97,16 @@ h1{
 footer{
 	clear: both;
 	}
+
+#form{
+	border-style:solid;
+	border-width: 2px;
+	padding: 5px;
+	margin-right: 900px;
+	background-color:#CCC;
+	font-size: 14px;
 	
-nav a{
-	display: block;
-	float: right;
-	margin-right:20%;	
-}
+	}
 	
 /*using a different google font for my paragraph styling*/
 
@@ -107,6 +118,8 @@ nav a{
 p{
 	font-family: 'Alegreya', serif;
 	text-indent: 15px;
+	padding: 5px;
+	line-height: 110%;
 	}
 	
 blockquote{
@@ -142,4 +155,17 @@ a:hover {
 /* selected link */
 a:active {
     color: #00F;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+	text-align: center;
+	text-transform: uppercase;
+	font-size:14px;
+	font-weight: bold;
+	background-color: #CCFFCC;
+}
+th, td {
+    padding: 5px;
 }
